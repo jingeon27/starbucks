@@ -69,7 +69,7 @@ a {
 }
 
 /*BACK TO POSITION*/
-/* .back-to-position {
+.back-to-position {
     opacity: 0;
     transition: 1s;
   }
@@ -94,7 +94,7 @@ a {
   }
   .show .back-to-position.delay-3 {
     transition-delay: .9s;
-  } */
+  }
 
 /* HEADER */
 header {

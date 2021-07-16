@@ -39,11 +39,11 @@ window.addEventListener('scroll', _.throttle(function(){
     })
  }
 }, 300));
-const toTOpEl =document.querySelector('#to-top');
-toTOpEl.addEventListener('click', function () {
+
+toTopEl.addEventListener('click', function () {
     gsap.to(window, .7, {
         scrollTo: 0
-    });
+    })
 })
 //gsap.to(요소, 지속시간, 옵션);
 
@@ -110,7 +110,7 @@ function random(min, max) {
 function floatingObject(selector, delay, size) {
     gsap.to(
         selector,
-        radom(1.5, 2.5), 
+        random(1.5, 2.5), 
         {
         y: size,
         repeat: -1,
